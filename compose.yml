@@ -1,0 +1,21 @@
+services:
+
+  calculator-worker:
+    build: ./calculator-worker
+    ports:
+      - 8000:8080
+
+  calculator-foreman:
+    build: ./calculator-foreman
+    ports:
+      - 8001:8080
+
+  calculator-backend:
+    build: ./calculator-backend
+    ports:
+      - 8002:8080
+
+  calculator-frontend:
+    build: ./calculator-frontend
+    ports:
+     - 3000:3000
