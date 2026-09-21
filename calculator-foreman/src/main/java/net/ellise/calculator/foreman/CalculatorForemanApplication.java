@@ -1,4 +1,4 @@
-package net.ellise.calculator_foreman;
+package net.ellise.calculator.foreman;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

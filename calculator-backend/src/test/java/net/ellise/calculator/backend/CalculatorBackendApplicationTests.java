@@ -1,4 +1,4 @@
-package net.ellise.calculator_backend;
+package net.ellise.calculator.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

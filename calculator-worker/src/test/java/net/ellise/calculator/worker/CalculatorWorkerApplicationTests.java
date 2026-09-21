@@ -1,10 +1,10 @@
-package net.ellise.calculator_foreman;
+package net.ellise.calculator.worker;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CalculatorForemanApplicationTests {
+class CalculatorWorkerApplicationTests {
 
 	@Test
 	void contextLoads() {
