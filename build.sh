@@ -1,6 +1,6 @@
 #!/bin/bash
 
-maven_projects=( "calculator-worker" "calculator-foreman" "calculator-backend" )
+maven_projects=( "calculator-messages" "calculator-worker" "calculator-foreman" "calculator-backend" )
 react_projects=( "calculator-frontend" )
 built=1
 
