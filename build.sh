@@ -1,6 +1,6 @@
 #!/bin/bash
 
-maven_projects=( "calculator-messages" "calculator-worker" "calculator-foreman" "calculator-backend" )
+maven_projects=( "." )
 react_projects=( "calculator-frontend" )
 built=1
 
@@ -9,7 +9,7 @@ do
   cd $maven_project
   mvn clean install
   built="$?"
-  cd ..
+#  cd ..
   if [ $built -ne 0 ]; then
     exit $built
   fi
