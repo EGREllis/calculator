@@ -9,22 +9,7 @@
 	</parent>
 
 	<artifactId>calculator-backend</artifactId>
-
-	<name/>
-	<description/>
-	<url/>
-	<licenses>
-		<license/>
-	</licenses>
-	<developers>
-		<developer/>
-	</developers>
-	<scm>
-		<connection/>
-		<developerConnection/>
-		<tag/>
-		<url/>
-	</scm>
+	<name>calculator-backend</name>
 
 	<dependencies>
 		<dependency>
